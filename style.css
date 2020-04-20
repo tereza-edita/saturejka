@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext");
 
 html {
@@ -10,6 +14,13 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
+h1 {
+  text-align: center;
+}
+
+.popisek {
+  text-align: center;
+}
 .logo {
   display: block;
   margin: auto;
@@ -28,14 +39,28 @@ body {
   display: block;
   width: 85%;
   margin: auto;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 30px;
+  font-weight: 300;
 }
 
 .obrazky {
   display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .nabidka {
-  width: 33%;
-  height: 33%;
+  width: 33.3%;
+  height: 33.3%;
+  padding-left: 15px;
+}
+
+.texty {
+  display: flex;
+}
+
+.sloupec {
+  width: 50%;
+  padding: 15px;
 }
