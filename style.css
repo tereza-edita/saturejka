@@ -18,9 +18,13 @@ h1 {
   text-align: center;
 }
 
-.popisek {
-  text-align: center;
+.centertextu {
+  display: block;
+  width: 350px;
+  margin: auto;
+  font-weight: 200;
 }
+
 .logo {
   display: block;
   margin: auto;
@@ -28,6 +32,11 @@ h1 {
 
 .titulek {
   text-align: center;
+}
+
+.popisek {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 body {
